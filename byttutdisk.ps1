@@ -1,8 +1,6 @@
 ## example 
 ## Endre operativsystem på samme VM
 ## ./byttutdisk.ps1 -gruppe 10 -antall 9 -operativsystem WS2016et
-## Lage VM
-## .\lvm.ps1 -gruppe biz-10 -antall 1 -operativsystem WS2016et
 Param(
 [string]$InstallRoot = "x:\",
 [string]$InstallHDD = "z:\",
