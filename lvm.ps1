@@ -4,6 +4,8 @@
 ## C: drive 50 GB Dynamic
 ## 4 x drive 50 GB fixed
 ## NIC renamed to MGMT
+## Lage VM
+## .\lvm.ps1 -gruppe biz-10 -antall 1 -operativsystem WS2016et
 Param(
 [string]$vSwitchName01 = "NIC-PUB",
 [string]$InstallRoot = "x:\",
