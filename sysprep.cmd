@@ -1,0 +1,1 @@
+﻿cd C:\windows\System32\Sysprep\sysprep.exe /oobe /generalize /reboot /unattend:c:\script\unattend.xml
